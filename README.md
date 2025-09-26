@@ -62,3 +62,33 @@ This project is an **Arduino-based Line Follower Robot** that uses two IR sensor
 ---
 
 ## 📸 Example Output (Serial Monitor)
+- 512
+- 489
+- 350
+- 370
+
+Each line corresponds to the **analog values** of the left and right IR sensors.
+
+---
+
+## 📂 Project File
+- **line_follower.ino** – The Arduino sketch file  
+
+---
+
+## 📌 Notes
+- Adjust `motor.setSpeed(200)` if your motors are too fast/slow.  
+- Ensure proper lighting and contrast between the line and background.  
+- Sensor threshold (`400`) may vary depending on your IR sensor model.  
+- For smoother performance, you can add **PID control** later.  
+
+---
+
+## 🎯 Applications
+- Educational robotics projects  
+- Autonomous navigation  
+- Obstacle and line-following competitions  
+- Foundation for advanced robotics (maze solvers, AI navigation)  
+
+---
+
